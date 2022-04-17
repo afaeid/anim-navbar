@@ -9,3 +9,8 @@ window.onscroll = ()=> {
     cont.style.marginTop = '20px';
   }
 }
+/*Func for loader*/
+var loadScreen = document.querySelector('.loader-screen');
+window.onload = ()=> {
+  loadScreen.style.display = 'none';
+}
